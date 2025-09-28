@@ -1,0 +1,8 @@
+
+This system architecture is composed of three distinct trust boundaries: Internet, Cloud Host, and Third Party.
+
+Within the Internet trust boundary, the Mobile App serves as the client interface. It initiates communication with the system by sending an authentication request over HTTPS to the Security Token Service (STS), which resides in the Cloud Host trust boundary. Upon successful authentication, the STS returns an authentication token to the Mobile App.
+
+The Mobile App then sends a service request over HTTPS to the API Gateway, also located within the Cloud Host boundary. The API Gateway forwards this request to the App Service using HTTP. The App Service, which handles core application logic, queries the Database via a SQL query to retrieve relevant data. The Database responds with a result set, which is returned to the App Service.
+
+To enrich the response, the App Service sends a request over HTTPS to an external AI Agent Service, which is part of the Third Party trust boundary. The AI Agent Service processes the request and returns a Markdown formatted response to the App Service. The App Service then compiles the final output in JSON format and sends it back to the API Gateway. The API Gateway, in turn, delivers the JSON response to the Mobile App.

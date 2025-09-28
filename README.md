@@ -25,7 +25,7 @@ A pre-requisite is to have a data-flow diagram in one of the following formats:
 1. Create a new folder within the `projects` folder, with your {PROJECT_NAME}
 2. Run the approprate prompt for your diagram format:
     - **Mermaid**
-        - save the Mermaid flow diagram (as a `.md` file) to the resources folder: /projects/{PROJECT_NAME}/resources/
+        - save the Mermaid flow diagram (as a `.md` file) to the resources folder: projects/{PROJECT_NAME}/resources/
         - run the `/threat-modelling.mermaid` prompt in your AI coding agent, providing your {PROJECT_NAME} and optionally the report type { lite | standard(default) | extended } i.e.
             - */threat-modelling.mermaid project: {PROJECT_NAME}, report template: lite*
     - **ArchiMate**
@@ -43,7 +43,7 @@ The following demo projects are included with example resources and threat model
 
 ### Demo-Description
 
-The starting point for this project was a [text based description](/projects/Demo-FromDescription/resources/threat-model-dataflow-description.txt) of the system components, data flows and threat boundaries. (You can think of threat boundaries at different network segments.) The `/mermaid-flow-diagram-create.prompt` was used to generate the [threat-model-dataflow-mermaid.md](/projects/Demo-FromDescription/resources/threat-model-dataflow-mermaid.md) Mermaid diagram from this description.
+The starting point for this project was a [text based description](projects/Demo-FromDescription/resources/threat-model-dataflow-description.txt) of the system components, data flows and threat boundaries. (You can think of threat boundaries at different network segments.) The `/mermaid-flow-diagram-create.prompt` was used to generate the [threat-model-dataflow-mermaid.md](projects/Demo-FromDescription/resources/threat-model-dataflow-mermaid.md) Mermaid diagram from this description.
 
 The threat modelling report was generated based on the generated Mermaid diagram. 
 
@@ -51,7 +51,7 @@ The `lite` report template was used in this project: [report](projects\Demo-From
 
 ### Demo-Mermaid
 
-The starting point for this project was an existing Mermaid flow diagram:  [threat-model-dataflow-mermaid.md](/projects/Demo-FromMermaid/resources/threat-model-dataflow-mermaid.md)
+The starting point for this project was an existing Mermaid flow diagram:  [threat-model-dataflow-mermaid.md](projects/Demo-FromMermaid/resources/threat-model-dataflow-mermaid.md)
 
 The `standard` report template was used in this project: [report](projects\Demo-FromMermaid\threat-model-Demo-FromMermaid-20250928-standard.md)
 
@@ -59,7 +59,7 @@ The `standard` report template was used in this project: [report](projects\Demo-
 
 ### Demo-Archiscribe
 
-The starting point for this project was a data-flow diagram created in ArchiMate, the details of the view were retrieved via the [ArchiScribe MCP Server](https://github.com/dclnbrght/archiscribe-mcp). The response from the MCP server is included in the resources folder: [threat-model-dataflow-archiscribe.md](/projects/Demo-FromArchiscribe/resources/threat-model-dataflow-archiscribe.md)
+The starting point for this project was a data-flow diagram created in ArchiMate, the details of the view were retrieved via the [ArchiScribe MCP Server](https://github.com/dclnbrght/archiscribe-mcp). The response from the MCP server is included in the resources folder: [threat-model-dataflow-archiscribe.md](projects/Demo-FromArchiscribe/resources/threat-model-dataflow-archiscribe.md)
 
 The `extended` report template was used in this project: [report](projects\Demo-FromArchiScribe\threat-model-Demo-FromArchiScribe-20250928-extended.md)
 

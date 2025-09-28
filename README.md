@@ -59,7 +59,7 @@ The `standard` report template was used in this project: [report](projects/Demo-
 
 ### Demo-Archiscribe
 
-The starting point for this project was a data-flow diagram created in ArchiMate, the details of the view were retrieved via the [ArchiScribe MCP Server](https://github.com/dclnbrght/archiscribe-mcp). The response from the MCP server is included in the resources folder: [threat-model-dataflow-archiscribe.md](projects/Demo-FromArchiscribe/resources/threat-model-dataflow-archiscribe.md)
+The starting point for this project was a data-flow diagram created in ArchiMate, the details of the view were retrieved via the [ArchiScribe MCP Server](https://github.com/dclnbrght/archiscribe-mcp). The response from the MCP server is included in the resources folder: [threat-model-dataflow-archiscribe.md](projects/Demo-FromArchiScribe/resources/threat-model-dataflow-archiscribe.md)
 
 The `extended` report template was used in this project: [report](projects/Demo-FromArchiScribe/threat-model-Demo-FromArchiScribe-20250928-extended.md)
 

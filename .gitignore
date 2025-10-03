@@ -1,0 +1,10 @@
+# Ignore project-specific threat models and resources
+projects/
+
+# Keep demo projects for reference
+!projects/Demo-*/
+
+# Temporary files
+*.tmp
+*.bak
+*.log

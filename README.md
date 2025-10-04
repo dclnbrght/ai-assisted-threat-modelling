@@ -33,7 +33,16 @@ A pre-requisite is to have a data-flow diagram in one of the following formats:
         - run the `/threat-modelling.archiscribe` prompt in your AI coding agent, providing your {PROJECT_NAME} and the ArchiMate viewname i.e.
             - */threat-modelling.archiscribe project: {PROJECT_NAME}, viewname: dataflow-view*
 3. Review the generated report, making appropriate corrections and adjustments
-4. While beyond the scope of this project, you can request an AI agent to creates work items (i.e. in Jira via MCP) based on the Mitigations section of the threat model report. 
+4. While beyond the scope of this project, you can request an AI agent to create work items (i.e. in Jira via MCP) based on the Mitigations section of the threat model report.
+
+## Threat Model Maintenance & Re-Assessment
+
+Threat models are living documents that must evolve with your system. Re-assess your threat model when:
+
+- **Architecture or functional changes**: New components, data stores, external integrations, modified data flows or trust boundaries
+- **Compliance requirements**: New regulatory obligations (GDPR, HIPAA, PCI-DSS, etc.)
+- **Security incidents**: Post-incident review to identify gaps in the original threat model
+- **Third-party changes**: Updates to critical dependencies, APIs, or external services
 
 ---
 

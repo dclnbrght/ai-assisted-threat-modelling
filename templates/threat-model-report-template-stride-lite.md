@@ -36,13 +36,14 @@
 - Only High risks get detail section.
 
 ## 4. Threat Register
-| ID | Component | STRIDE | Description (Concise) | L | I | Risk | Key Mitigations | Status |
-|----|-----------|--------|-----------------------|---|---|------|-----------------|--------|
-| T-001 |  |  | A [actor] could ... |  |  |  |  | Open |
+| ID | Component | STRIDE | MITRE ATT&CK TTP(s) | Description (Concise) | L | I | Risk | Key Mitigations | Status |
+|----|-----------|--------|---------------------|-----------------------|---|---|------|-----------------|--------|
+| T-001 |  |  |  | A [actor] could ... |  |  |  |  | Open |
 
 ## 5. High Risk Details
 ### [T-00X] [Title]
 - Vector: [Main mechanism]
+- MITRE ATT&CK Mapping: [Tactic/Technique ID(s) and names]
 - Impact: [What happens]
 - Existing Controls: [If any]
 - Mitigations (prioritized):

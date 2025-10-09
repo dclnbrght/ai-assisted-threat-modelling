@@ -43,14 +43,15 @@
 - High risks get detailed expansion; Medium/Low summarized only.
 
 ## 4. Threat Register
-| ID | Component | STRIDE | OWASP Cat | Description | L | I | Risk | Key Mitigations | Status | Residual L | Residual I | Residual Risk |
-|----|-----------|--------|-----------|-------------|---|---|------|-----------------------|--------|------------|------------|--------------|
-| T-001 |  |  |  | A [actor] could ... |  |  |  |  | Open |  |  |  |  |
+| ID | Component | STRIDE | OWASP Cat | MITRE ATT&CK TTP(s) | Description | L | I | Risk | Key Mitigations | Status | Residual L | Residual I | Residual Risk |
+|----|-----------|--------|-----------|---------------------|-------------|---|---|------|-----------------------|--------|------------|------------|--------------|
+| T-001 |  |  |  |  | A [actor] could ... |  |  |  |  | Open |  |  |  |  |
 
 ## 5. High Risk Details
 ### [T-00X] [Title]
 - STRIDE: [ ]
 - OWASP: [ ]
+- MITRE ATT&CK Mapping: [Tactic/Technique ID(s) and names]
 - Description: [Expanded impact]
 - Attack Vectors: [List]
 - Existing Controls: [List]

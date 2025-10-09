@@ -53,16 +53,20 @@
 | Detection & Monitoring |  |  |
 
 ## 4. Threat Register
-| ID | Component | STRIDE | OWASP Cat | NIST Families | CIA Impacted | Description | L (1-10) | I (1-10) | Risk | Ctrl Maturity | Detection | Key Mitigations | Owner | Status | Residual L | Residual I | Residual Risk |
-|----|-----------|--------|-----------|---------------|--------------|-------------|----------|----------|------|---------------|-----------|----------------------|-------|--------|------------|------------|--------------|
+| ID | Component | STRIDE | OWASP Cat | MITRE ATT&CK TTP(s) | NIST Families | CIA Impacted | Description | L (1-10) | I (1-10) | Risk | Ctrl Maturity | Detection | Key Mitigations | Owner | Status | Residual L | Residual I | Residual Risk |
+|----|-----------|--------|-----------|---------------------|---------------|--------------|-------------|----------|----------|------|---------------|-----------|----------------------|-------|--------|------------|------------|--------------|
 | T-001 |  |  |  |  |  | A [actor] could ... |  |  |  | None | No |  |  | Open |  |  |  |
 
 Legend: Ctrl Maturity = None / Partial / Adequate / Strong; Status = Open / Planned / In Progress / Mitigated / Accepted.
 
 ## 5. High Risk Detail
 ### [T-001] [Title]
+  1. [Primary]
+  2. [Secondary]
+### [T-001] [Title]
 - STRIDE Type(s): [ ]
 - OWASP Category: [ ]
+- MITRE ATT&CK Mapping: [Tactic/Technique ID(s) and names]
 - NIST Controls: [AC, IA, AU, ...]
 - AI RMF (if applicable): [Govern/Map/Measure/Manage]
 - Description: [Expanded impact & context]
